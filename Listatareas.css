@@ -10,6 +10,7 @@ body {
 .contenedor {
     width: 70%;
     padding: 4%;
+    padding-bottom: 6%;
     background-color: #feb820;
     margin: 5% auto;
     box-sizing: border-box;
