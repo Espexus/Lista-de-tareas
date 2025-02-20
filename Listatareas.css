@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4fe20;
+}
+
+.contenedor {
+    width: 70%;
+    padding: 4%;
+    background-color: #feb820;
+    margin: 5% auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.Lista {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+li button {
+    float:right;
+    margin: auto 5px;
+    padding: 3px;
+}
+
+
+.nueva button {
+    margin-top: 20px;
+    float: right;
+    padding: 3px;
+
+}
+
+button:active {
+    background-color: #a0fe20;
+}
+
+.Borrar:active {
+    background-color: red;
+}
+
+.hecho {
+    background-color: #60ea16;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de tareas</title>
+        <link rel="stylesheet" href="Css/Listatareas.css">
+        <link rel="shortcut icon" type="image/x-icon" href="Imagenes/Logotareas.png">
+    </head>
+    <body>
+
+        <div class="contenedor">
+            <h1>Lista de tareas</h1>
+            <div class="Lista">
+                <ul id="listita">
+                    <li>Bienvenido a mi lista de tareas, disfruta
+                        <button class="Borrar" onclick="Borrar(this)">Borrar</button>
+                        <button onclick="Hecho(this)">Hecho</button>
+                        <button onclick="Nohecho(this)">No hecho</button>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="nueva"><button onclick="Agregar()">Nueva Tarea</button></div>
+
+        </div>
+        
+
+        <script src="JavaScript/Listatareas.js"></script>
+    </body>
+</html>
