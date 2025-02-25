@@ -7,7 +7,7 @@ function Agregar() {
 
     let nuevoElemento = document.createElement('li');
     nuevoElemento.innerHTML = `<input type="checkbox" id="hecho" name="hacer" class="check">`
-    + tarea + `<img src="Imagenes/equis.png" id="hecho" class="equis">`;
+    + tarea + `<img src="equis.png" id="hecho" class="equis">`;
 
     referencia.appendChild(nuevoElemento);
 
